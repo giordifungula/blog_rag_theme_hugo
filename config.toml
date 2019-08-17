@@ -91,15 +91,10 @@ canonifyurls = true
   weight = 4
   identifier = "You Tube"
   name = "You Tube"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-you-tube\"></i>"
-  url = "https://www.linkedin.com/in/ragasirtahk/"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-youtube\"></i>"
+  url = "https://www.youtube.com/channel/UClagvd3rPOyLXS9UdFYhPow"
 
-[[menu.misc]]
-  weight = 1
-  identifier = "rss"
-  name = "RSS"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
-  url = "/index.xml"
+
 
 [params]
   # Customize date format use to render blog post date, categories and other
@@ -216,4 +211,4 @@ canonifyurls = true
 
   # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
    [params.footer]
-     copyright = "<a href=\"https://github.com/ragasirtahk\">Sagar Khatri</a>"
+     copyright = "<a href="#">Francine</a>"
