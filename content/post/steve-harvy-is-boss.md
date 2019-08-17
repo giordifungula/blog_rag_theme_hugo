@@ -9,7 +9,7 @@ keywords:
   - yo yo
 autoThumbnailImage: false
 thumbnailImagePosition: top
-thumbnailImage: /images/uploads/cover-post.jpg
+thumbnailImage: ''
 coverImage: ''
 ---
 People are walking down bro
