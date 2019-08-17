@@ -7,8 +7,9 @@ tags:
   - james
 keywords:
   - yo yo
-autoThumbnailImage: true
+autoThumbnailImage: false
 thumbnailImagePosition: top
-coverImage: /images/uploads/moving.gif
+thumbnailImage: /images/uploads/cover-post.jpg
+coverImage: ''
 ---
 People are walking down bro
