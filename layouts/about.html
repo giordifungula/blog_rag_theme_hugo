@@ -1,0 +1,28 @@
+<div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    {{ with ($.Scratch.Get "authorPicture") }}
+      <img id="about-card-picture" src="https://scontent.fcpt7-1.fna.fbcdn.net/v/t1.0-9/62070093_2370651593204374_5401713783301210112_n.jpg?_nc_cat=111&_nc_oc=AQn2GpnyYZOrTg7RtMtreCg5VJorz7gia4doT1Mejz04q2SxFLdv27flu-UGZT5Ypmc&_nc_ht=scontent.fcpt7-1.fna&oh=e1bf6398b0ba27362be1ca3e5474c131&oe=5DE10295" alt="{{ i18n "global.author_picture" }}" />
+    {{ end }}
+    <h4 id="about-card-name">{{ .Site.Author.name }}</h4>
+    {{ with .Site.Author.bio }}
+      <div id="about-card-bio">{{ . | markdownify }}</div>
+    {{ end }}
+    {{ with .Site.Author.job }}
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        {{ . | markdownify }}
+      </div>
+    {{ end }}
+    {{ with .Site.Author.location }}
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        {{ . }}
+      </div>
+    {{ end }}
+  </div>
+</div>
