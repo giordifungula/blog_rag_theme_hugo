@@ -1,10 +1,10 @@
 baseURL = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "The ragasirtahk Blog"
+title = "Francine Blog"
 theme = "hugo-tranquilpeak-theme"
-disqusShortname = "the-ragasirtahk-blog"
-googleAnalytics = "UA-96539727-5"
+#disqusShortname = "the-ragasirtahk-blog"
+#googleAnalytics = "UA-96539727-5"
 paginate = 7
 canonifyurls = true
 
@@ -17,17 +17,17 @@ canonifyurls = true
   archive = "archives"
 
 [author]
-  name = "Sagar Khatri"
-  bio = "Open Source Enthusiast | Blogger | Quizzer | Conversationalist"
-  job = "Student @ DPS Sonepat"
-  location = "India"
+  name = "Francine Mujinga"
+  bio = "You Tuber | Blogger | Make Up Artist | Conversationalist | Poet "
+  job = "Writer and You tuber"
+  location = "Cape Town"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "khatri.sagar.sk@gmail.com"
+  gravatarEmail = "francine"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  # picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
+  # picture = "https://pbs.twimg.com/profile_banners/2204611342/1535955733/1500x500"
   # Your Twitter username without the @. E.g : thibaudlepretre
-  twitter = "ragasirtahk"
+  twitter = "FrancineHaay"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
   # googlePlus = "+ThibaudLepretre"
 
@@ -62,36 +62,36 @@ canonifyurls = true
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
   url = "/#about"
-[[menu.main]]
-  weight = 6
-  identifier = "portfolio"
-  name = "Portfolio"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-address-card\"></i>"
-  url = "https://me.ragasirtahk.tk/"
+#[[menu.main]]
+#  weight = 6
+#  identifier = "portfolio"
+#  name = "Portfolio"
+#  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-address-card\"></i>"
+#  url = "https://me.ragasirtahk.tk/"
 
-[[menu.links]]
-  weight = 1
-  identifier = "github"
-  name = "GitHub"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
-  url = "https://github.com/ragasirtahk"
+#[[menu.links]]
+#  weight = 1
+#  identifier = "github"
+#  name = "GitHub"
+#  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+#  url = "https://github.com/ragasirtahk"
 [[menu.links]]
   weight = 2
   identifier = "facebook"
   name = "Facebook"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-facebook\"></i>"
-  url = "https://facebook.com/ragasirtahk7"
+  url = "https://facebook.com/eephy.lane"
 [[menu.links]]
   weight = 3
   identifier = "twitter"
   name = "Twitter"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
-  url = "https://twitter.com/ragasirtahk"
+  url = "https://twitter.com/FrancineHaay"
 [[menu.links]]
   weight = 4
-  identifier = "linkedin"
-  name = "LinkedIn"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\"></i>"
+  identifier = "You Tube"
+  name = "You Tube"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-you-tube\"></i>"
   url = "https://www.linkedin.com/in/ragasirtahk/"
 
 [[menu.misc]]
