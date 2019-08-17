@@ -7,7 +7,7 @@ tags:
   - james
 keywords:
   - yo yo
-autoThumbnailImage: false
+autoThumbnailImage: true
 thumbnailImagePosition: top
 thumbnailImage: ''
 coverImage: ''
