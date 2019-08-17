@@ -10,6 +10,6 @@ keywords:
 autoThumbnailImage: false
 thumbnailImagePosition: top
 thumbnailImage: /images/uploads/cover-post.jpg
-coverImage: ''
+coverImage: /images/uploads/cover-post.jpg
 ---
 We are here
