@@ -25,7 +25,7 @@ canonifyurls = true
   gravatarEmail = "francine"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  # picture = "https://pbs.twimg.com/profile_banners/2204611342/1535955733/1500x500"
+   picture = "https://pbs.twimg.com/profile_banners/2204611342/1535955733/1500x500"
   # Your Twitter username without the @. E.g : thibaudlepretre
   twitter = "FrancineHaay"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
