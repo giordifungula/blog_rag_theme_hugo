@@ -2,3 +2,13 @@
     display: none;
     /* dont display the image */
 }
+#about-card-block {
+    
+}
+
+.about-block {
+   
+}
+#about #about-card {
+    max-width: 500px !important;
+}
