@@ -82,6 +82,14 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-youtube\"></i>"
   url = "https://www.youtube.com/channel/UClagvd3rPOyLXS9UdFYhPow"
 
+[[menu.links]]
+  weight = 4
+  identifier = "Instagram"
+  name = "Instagram"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-instagram\"></i>"
+  url = "https://www.instagram.com/king_franmuj/"
+
+
 
 
 [params]
