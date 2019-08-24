@@ -3,7 +3,7 @@
     {{ with ($.Scratch.Get "authorPicture") }}
       <div class="sidebar-profile">
         <a href="{{ if $.Site.Params.sidebar.profile.url }}{{ $.Site.Params.sidebar.profile.url }}{{ else }}{{ "/#about" }}{{ end }}">
-          <img class="sidebar-profile-picture" src="https://scontent.fcpt7-1.fna.fbcdn.net/v/t1.0-9/62070093_2370651593204374_5401713783301210112_n.jpg?_nc_cat=111&_nc_oc=AQn2GpnyYZOrTg7RtMtreCg5VJorz7gia4doT1Mejz04q2SxFLdv27flu-UGZT5Ypmc&_nc_ht=scontent.fcpt7-1.fna&oh=e1bf6398b0ba27362be1ca3e5474c131&oe=5DE10295" alt="{{ i18n "global.author_picture" }}" />
+          <img class="sidebar-profile-picture" src="/images/uploads/icon-image.jpg" alt="{{ i18n "global.author_picture" }}" />
         </a>
         <h4 class="sidebar-profile-name">{{ $.Site.Author.name }}</h4>
         {{ with $.Site.Author.bio }}
