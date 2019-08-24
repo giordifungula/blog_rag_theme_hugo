@@ -89,9 +89,6 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-instagram\"></i>"
   url = "https://www.instagram.com/king_franmuj/"
 
-
-
-
 [params]
   # Customize date format use to render blog post date, categories and other
   # You must use date format used by Go Time package https://golang.org/pkg/time/
@@ -170,8 +167,15 @@ canonifyurls = true
 
   # Custom JS. Put here your custom JS files. They are loaded after the theme JS;
   # they have to be referred from static root. Example
+
    [[params.customJS]]
-    src = "js/hover-effect.umd.js"
+    src = "https://cdnjs.cloudflare.com/ajax/libs/three.js/107/three.min.js"
+
+   [[params.customJS]]
+     src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+
+   [[params.customJS]]
+     src = "https://cdn.rawgit.com/robin-dela/hover-effect/master/dist/hover-effect.umd.js"
     
    [[params.customJS]]
      src = "js/myscript.js" 

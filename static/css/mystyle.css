@@ -2,15 +2,22 @@
     display: none;
     /* dont display the image */
 }
-#about-card-block {
-    
-}
 
 .about-block {
    
 }
 #about #about-card {
-    max-width: 500px !important;
+    /* the about page styles  */
+    max-width: 900px !important;
+    /* margin: 0 !important; */
+    /* will add the images here */
+
+}
+.more-info {
+    padding: 2em;
+}
+.my-div {
+    height: 500px;
 }
 
 /* .postShorten, .postShorten--thumbnailimg-top {
