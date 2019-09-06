@@ -11,4 +11,4 @@ autoThumbnailImage: false
 thumbnailImagePosition: top
 coverImage: /images/uploads/cover-post.jpg
 ---
-We are moving
+We are moving down
