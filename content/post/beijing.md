@@ -12,3 +12,4 @@ thumbnailImagePosition: top
 coverImage: /images/uploads/cover-post.jpg
 ---
 We are moving down
+ 
