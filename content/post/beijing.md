@@ -1,5 +1,5 @@
 ---
-title: Beijing
+title: Beijing Edited
 date: '2019-08-19T16:06:49+03:00'
 categories:
   - China
