@@ -9,7 +9,7 @@ keywords:
   - gently
 autoThumbnailImage: false
 thumbnailImagePosition: top
-thumbnailImage: /images/uploads/cover-post.jpg
+thumbnailImage: ''
 coverImage: /images/uploads/cover-post.jpg
 ---
 We are here
